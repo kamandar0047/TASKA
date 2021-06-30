@@ -1,0 +1,25 @@
+.dvd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation-name: name;
+    animation-duration: 4s;
+    animation-iteration-count: 6;
+    animation-direction: alternate; 
+
+   }
+
+
+
+   @keyframes name {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:600px; top:0px;}
+    50%  {background-color:blue; left:600px; top:600px;}
+    75%  {background-color:green; left:0px; top:600px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
